@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/custom_lst_item_backgroung">
+
+	<ImageView android:id="@+id/img_menu_principal_item"
+		 android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</ImageView>
+
+	<TextView android:text="Opcão" android:id="@+id/txt_menu_principal_nome_item" android:layout_marginLeft="10px"
+		style="@style/txt_common.menu" android:layout_width="fill_parent" android:gravity="center_vertical"
+		 android:layout_height="fill_parent"></TextView>
+
+</LinearLayout>

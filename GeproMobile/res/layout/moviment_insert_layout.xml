@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/custom_act_background">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:text="@string/moviment_tipo" android:id="@+id/lbl_moviment_tipo"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+		<Spinner android:id="@+id/ddl_moviment_insert_tipo"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:background="@drawable/custom_button"></Spinner>
+
+		<TextView android:text="@string/moviment_desdoramento"
+			android:id="@+id/lbl_moviment_desdobramento" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<Spinner android:id="@+id/ddl_moviment_insert_desdobramento"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:background="@drawable/custom_button"></Spinner>
+			
+		<TextView android:text="@string/moviment_data" android:id="@+id/lbl_moviment_insert_"
+			style="@style/txt_common" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<Button android:id="@+id/btn_moviment_insert_data"
+			android:layout_gravity="bottom"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/btn_common"
+			android:text="01-01-1900"></Button>
+
+		<TextView android:text="@string/moviment_descricao"
+			android:id="@+id/lbl_moviment_insert_descricao" style="@style/txt_common"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+		<EditText android:id="@+id/txt_moviments_insert_descricao"
+			android:layout_below="@+id/lbl_moviment_insert_descricao"
+			android:gravity="top" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:inputType="textMultiLine"
+			android:bufferType="normal" android:lines="5"></EditText>
+
+		<Button android:id="@+id/btn_moviment_insert_salvar"
+			android:layout_gravity="bottom" android:layout_marginTop="5px"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/btn_common"
+			android:text="Salvar"></Button>
+
+	</LinearLayout>
+
+</ScrollView>
+

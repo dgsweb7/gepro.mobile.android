@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:background="@drawable/custom_act_background"
+	android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:text="Tipo" android:id="@+id/lbl_agenda_manut_tipo"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+		<Spinner android:id="@+id/ddl_agenda_manut_tipo"
+			android:layout_below="@+id/lbl_agenda_manut_tipo"
+			android:layout_width="fill_parent" style="@style/txt_common.medium"
+			android:layout_height="wrap_content" android:autoLink="none"></Spinner>
+
+
+		<TextView android:text="Assunto:" android:id="@+id/lbl_agenda_manut_assunto"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+		<EditText android:id="@+id/txt_agenda_manut_assunto"
+			android:layout_below="@+id/lbl_agenda_manut_assunto"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:autoLink="none" style="@style/txt_common.big"></EditText>
+
+
+		<TextView android:text="Local:" android:id="@+id/lbl_agenda_manut_local"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+		<EditText android:id="@+id/txt_agenda_manut_local"
+			android:layout_below="@+id/lbl_agenda_manut_local"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:autoLink="none" style="@style/txt_common.big"></EditText>
+
+		<TextView android:text="Data:" android:id="@+id/lbl_agenda_manut_data"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+
+			<Button android:id="@+id/btn_agenda_manut_data_inicio"
+				android:text="23-01-2010" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1">
+			</Button>
+			<Button android:id="@+id/btn_agenda_manut_hora_inicio"
+				android:text="08:00" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1"></Button>
+
+			<Button android:id="@+id/btn_agenda_manut_hora_fim"
+				android:text="09:00" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_weight="1">
+			</Button>
+
+		</LinearLayout>
+
+
+		<TextView android:text="@string/moviment_descricao"
+			android:id="@+id/lbl_moviment_insert_descricao" style="@style/txt_common"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+		<EditText android:id="@+id/txt_agenda_manut_descricao"
+			android:layout_below="@+id/lbl_agenda_manut_descricao"
+			android:gravity="top" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:inputType="textMultiLine"
+			android:bufferType="normal" android:lines="5"></EditText>
+
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+
+			<ToggleButton android:id="@+id/tg_agenda_manut_ocupado"
+				android:textOn="Ocupado" android:textOff="Ocupado" 
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:layout_height="wrap_content"></ToggleButton>
+
+			<ToggleButton android:id="@+id/tg_agenda_manut_confidencial"
+				android:textOn="Confidencial" android:textOff="Confidencial"
+				 android:layout_width="fill_parent"
+				android:layout_weight="1" android:layout_height="wrap_content"></ToggleButton>
+
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			
+			<ToggleButton android:id="@+id/tg_agenda_manut_particular"
+				android:textOn="Particular" android:textOff="Particular" 
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:layout_height="wrap_content"></ToggleButton>
+
+			<ToggleButton android:id="@+id/tg_agenda_manut_realizado"
+				android:textOn="Realizado" android:textOff="Realizado"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:layout_height="wrap_content"></ToggleButton>
+		</LinearLayout>
+
+		<TextView android:text="Pasta" android:id="@+id/lbl_agenda_manut_pasta"
+			style="@style/txt_common" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<Button android:id="@+id/btn_agenda_manut_pasta" android:text="N/A"
+			android:layout_below="@+id/lbl_agenda_manut_pasta"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1">
+		</Button>
+
+		<TextView android:text="Pessoa:" android:id="@+id/lbl_agenda_manut_pessoa"
+			style="@style/txt_common" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<Button android:id="@+id/btn_agenda_manut_pessoa" android:text="N/A"
+			android:layout_below="@+id/lbl_agenda_manut_pessoa"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1"></Button>
+	</LinearLayout>
+</ScrollView>

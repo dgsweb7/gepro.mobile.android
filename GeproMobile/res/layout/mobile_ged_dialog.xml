@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/custom_act_background">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+
+		<TextView android:text="@string/mobile_ged_filename"
+			android:id="@+id/lbl_mobile_ged_filename" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<EditText android:id="@+id/txt_mobile_ged_filename"
+			android:layout_below="@+id/lbl_mobile_ged_filename"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="text"></EditText>
+
+
+		<TextView android:text="@string/mobile_ged_descriprion"
+			android:id="@+id/lbl_mobile_ged_description" style="@style/txt_common" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<EditText android:id="@+id/txt_mobile_ged_description"
+			android:layout_below="@+id/lbl_mobile_ged_description"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="text"></EditText>
+			
+
+
+		<TextView android:text="@string/mobile_ged_keywords"
+			android:id="@+id/lbl_mobile_ged_keywords" style="@style/txt_common" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<EditText android:id="@+id/txt_mobile_ged_keywords"
+			android:layout_below="@+id/lbl_mobile_ged_keywords"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="text"></EditText>
+
+		<TextView android:text="Pasta"
+			android:id="@+id/lbl_mobile_ged_pasta" style="@style/txt_common" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></TextView>
+		<Button android:id="@+id/btn_mobile_ged_pasta"
+			android:layout_below="@+id/lbl_mobile_ged_pasta"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:inputType="text"></Button>
+			
+
+		<TextView android:text="@string/mobile_ged_type" android:id="@+id/lbl_mobile_ged_tipodoc"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<Spinner android:id="@+id/ddl_mobile_ged_doctype" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@drawable/custom_button" ></Spinner>
+		
+		<Button android:id="@+id/btn_mobile_ged_enviar"  android:layout_gravity="bottom" android:layout_marginTop="5px"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/btn_common" android:text="Anexar Arquivo."></Button>
+
+	</LinearLayout>
+
+</ScrollView>
+

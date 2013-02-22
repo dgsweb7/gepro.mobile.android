@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Bind">
+            
+        
+            
+    <EditTextPreference android:title="@string/settings_consumer_id" android:summary="@string/settings_consumer_id_desc" android:key="@string/settings_consumer_id_key"></EditTextPreference>
+
+</PreferenceCategory>
+                
+   
+</PreferenceScreen>
+

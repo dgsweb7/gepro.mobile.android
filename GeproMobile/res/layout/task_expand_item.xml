@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView android:text="00/00/0000" android:id="@+id/txt_task_expand_date_ini"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_margin="5px" android:layout_marginBottom="0px"
+			style="@style/txt_common"></TextView>
+
+		<TextView android:text="00/00/0000" android:id="@+id/txt_task_expand_date_end"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_margin="5px" android:layout_marginBottom="0px"
+			style="@style/txt_common"></TextView>
+
+
+	</LinearLayout>
+
+	<TextView android:text="Local: room xxxx" android:id="@+id/txt_task_expand_location"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:autoLink="all" android:layout_marginLeft="5px"
+		style="@style/txt_common.medium"></TextView>
+
+
+	<TextView android:text="Description" android:id="@+id/txt_task_expand_desc"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:autoLink="all" android:layout_marginLeft="5px"
+		style="@style/txt_common.big"></TextView>
+</LinearLayout>

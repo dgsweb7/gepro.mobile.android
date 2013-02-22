@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gepromobileandroid/!svn/ver/72/source/GeproMobileCore/src/gepro/mobile/parse
+END
+LoginJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gepromobileandroid/!svn/ver/26/source/GeproMobileCore/src/gepro/mobile/parse/LoginJSONParser.java
+END
+GedItemJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gepromobileandroid/!svn/ver/48/source/GeproMobileCore/src/gepro/mobile/parse/GedItemJSONParser.java
+END
+GedJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gepromobileandroid/!svn/ver/68/source/GeproMobileCore/src/gepro/mobile/parse/GedJSONParser.java
+END
+SessionJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gepromobileandroid/!svn/ver/26/source/GeproMobileCore/src/gepro/mobile/parse/SessionJSONParser.java
+END
+TipoJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gepromobileandroid/!svn/ver/70/source/GeproMobileCore/src/gepro/mobile/parse/TipoJSONParser.java
+END
+PastaJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gepromobileandroid/!svn/ver/26/source/GeproMobileCore/src/gepro/mobile/parse/PastaJSONParser.java
+END
+DesdobramentoJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/gepromobileandroid/!svn/ver/41/source/GeproMobileCore/src/gepro/mobile/parse/DesdobramentoJSONParser.java
+END
+AndamentosJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/gepromobileandroid/!svn/ver/66/source/GeproMobileCore/src/gepro/mobile/parse/AndamentosJSONParser.java
+END
+PessoasJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gepromobileandroid/!svn/ver/66/source/GeproMobileCore/src/gepro/mobile/parse/PessoasJSONParser.java
+END
+AgendaJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/gepromobileandroid/!svn/ver/72/source/GeproMobileCore/src/gepro/mobile/parse/AgendaJSONParser.java
+END
+GeproFileJSONparser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gepromobileandroid/!svn/ver/70/source/GeproMobileCore/src/gepro/mobile/parse/GeproFileJSONparser.java
+END

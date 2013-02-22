@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:layout_width="fill_parent" android:background="@color/gray">
+
+	<ImageView android:layout_height="fill_parent"
+		android:layout_marginTop="5px" android:layout_marginLeft="40px" android:background="@color/write"
+		android:layout_marginRight="40px" android:layout_marginBottom="70px"
+		android:id="@+id/img_mobile_ged_preview" android:layout_width="fill_parent">
+	</ImageView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true">
+
+		<ImageButton android:id="@+id/btn_mobile_ged_prevImage"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1"></ImageButton>
+
+
+		<ImageButton android:id="@+id/btn_mobile_ged_add"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1"></ImageButton>
+
+		<ImageButton android:id="@+id/btn_mobile_ged_make_pdf"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1"></ImageButton>
+
+		<ImageButton android:id="@+id/btn_mobile_ged_remove"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1"></ImageButton>
+
+		<ImageButton android:id="@+id/btn_mobile_ged_nextImage"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1"></ImageButton>
+
+
+	</LinearLayout>
+</RelativeLayout>

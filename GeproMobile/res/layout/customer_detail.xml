@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/custom_act_background">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:text="@string/customer_detail_code"
+			android:id="@+id/lbl_customer_detail_code" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<TextView android:id="@+id/txt_customer_detail_code"
+			android:layout_below="@+id/lbl_customer_detail_code"
+			android:layout_marginLeft="10px" android:layout_marginTop="5px"
+			style="@style/txt_common.big" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:autoLink="none"></TextView>
+
+
+		<TextView android:text="@string/customer_detail_name"
+			android:id="@+id/lbl_customer_detail_name" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<TextView android:id="@+id/txt_customer_detail_name"
+			android:layout_below="@+id/lbl_customer_detail_name"
+			android:layout_marginLeft="10px" android:layout_marginTop="5px"
+			style="@style/txt_common.big" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:autoLink="none"></TextView>
+
+		<TextView android:text="@string/customer_detail_activity"
+			android:id="@+id/lbl_customer_detail_activity" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<TextView android:id="@+id/txt_customer_detail_activity"
+			android:layout_below="@+id/lbl_customer_detail_activity"
+			android:layout_marginLeft="10px" android:layout_marginTop="5px"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:autoLink="none" style="@style/txt_common.big"></TextView>
+
+
+		<TextView android:text="@string/customer_detail_email"
+			android:id="@+id/lbl_customer_detail_email" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<TextView android:id="@+id/txt_customer_detail_email"
+			android:layout_below="@+id/lbl_customer_detail_email"
+			android:layout_marginLeft="10px" android:layout_marginTop="5px"
+			android:layout_width="fill_parent" style="@style/txt_common.big"
+			android:layout_height="wrap_content" android:autoLink="web|email"></TextView>
+
+
+		<TextView android:text="@string/customer_detail_web"
+			android:id="@+id/lbl_customer_detail_web" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<TextView android:id="@+id/txt_customer_detail_web"
+			android:layout_below="@+id/lbl_customer_detail_web"
+			android:layout_marginLeft="10px" android:layout_marginTop="5px"
+			android:layout_width="fill_parent" style="@style/txt_common.big"
+			android:layout_height="wrap_content" android:autoLink="web|email"></TextView>
+
+		<TextView android:text="@string/customer_detail_phone"
+			android:id="@+id/lbl_customer_detail_phone" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+		<TextView android:id="@+id/txt_customer_detail_phone"
+			android:layout_below="@+id/lbl_customer_detail_phone"
+			android:layout_marginLeft="10px" android:layout_marginTop="5px"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:autoLink="phone" style="@style/txt_common.big"></TextView>
+
+	</LinearLayout>
+
+</ScrollView>

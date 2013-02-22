@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/write">
+
+	<Spinner android:id="@+id/ddl_desdobramentos_moviment"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+
+	<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:id="@+id/lst_moviments" style="@style/lst_common"
+		android:cacheColorHint="#00000000" android:background="@color/write"
+		android:divider="#C8C8C8">
+	</ExpandableListView>
+</LinearLayout>
+
+

@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf
+END
+Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Page.java
+END
+CP1254.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CP1254.java
+END
+Border.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Border.java
+END
+Box.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Box.java
+END
+CP1250.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CP1250.java
+END
+Executive.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Executive.java
+END
+PDF417.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/PDF417.java
+END
+Compressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Compressor.java
+END
+Align.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Align.java
+END
+Cell.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Cell.java
+END
+ECC_L4.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/ECC_L4.java
+END
+TextLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/TextLine.java
+END
+DroidFontsCopyright.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/DroidFontsCopyright.java
+END
+FontTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/FontTable.java
+END
+Helvetica_BoldOblique.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Helvetica_BoldOblique.java
+END
+Standard.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Standard.java
+END
+CodePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CodePage.java
+END
+Symbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Symbol.java
+END
+Courier_Bold.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Courier_Bold.java
+END
+BMPImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/BMPImage.java
+END
+A4.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/A4.java
+END
+Round.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Round.java
+END
+Times_BoldItalic.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Times_BoldItalic.java
+END
+Chunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Chunk.java
+END
+CP1251.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CP1251.java
+END
+IoStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/IoStream.java
+END
+Path.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Path.java
+END
+ECC_L5.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/ECC_L5.java
+END
+TextColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/TextColumn.java
+END
+ECC_L1.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/ECC_L1.java
+END
+GS1_128.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/GS1_128.java
+END
+Embed.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Embed.java
+END
+Line.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Line.java
+END
+A5.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/A5.java
+END
+BarCode2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/BarCode2D.java
+END
+PDF.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/PDF.java
+END
+PNGImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/PNGImage.java
+END
+Font.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Font.java
+END
+Paragraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Paragraph.java
+END
+RGB.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/RGB.java
+END
+Glyph.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Glyph.java
+END
+CP1252.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CP1252.java
+END
+Salsa20.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Salsa20.java
+END
+Letter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Letter.java
+END
+Missing.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Missing.java
+END
+Times_Roman.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Times_Roman.java
+END
+BarCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/BarCode.java
+END
+Courier_Oblique.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Courier_Oblique.java
+END
+Chart.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Chart.java
+END
+Legal.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Legal.java
+END
+ZapfDingbats.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/ZapfDingbats.java
+END
+ImageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/ImageType.java
+END
+Tabloid.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Tabloid.java
+END
+JPEGImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/JPEGImage.java
+END
+CP1257.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CP1257.java
+END
+Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Point.java
+END
+Annotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Annotation.java
+END
+CoreFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CoreFont.java
+END
+Table.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Table.java
+END
+Courier.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Courier.java
+END
+CP1253.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/CP1253.java
+END
+Times_Italic.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Times_Italic.java
+END
+Decompressor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Decompressor.java
+END
+Helvetica_Oblique.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Helvetica_Oblique.java
+END
+OTF.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/OTF.java
+END
+Times_Bold.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Times_Bold.java
+END
+Image.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Image.java
+END
+Compliance.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Compliance.java
+END
+Courier_BoldOblique.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Courier_BoldOblique.java
+END
+TextCompact.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/TextCompact.java
+END
+Helvetica_Bold.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Helvetica_Bold.java
+END
+B5.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/B5.java
+END
+OpenTypeFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/OpenTypeFont.java
+END
+A3.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/A3.java
+END
+Helvetica.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gepromobileandroid/!svn/ver/8/source/modpdf/src/com/modularsistemas/modpdf/Helvetica.java
+END

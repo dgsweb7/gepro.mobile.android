@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical" android:layout_marginLeft="10px">
+	
+	<TextView android:text="Responsavel" android:id="@+id/txt_moviment_responsible"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		 android:layout_margin="5px" style="@style/txt_common"></TextView>
+
+	<TextView android:text="Description" android:id="@+id/txt_moviment_description"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		 android:layout_margin="5px" android:textSize="20px" style="@style/txt_common.big"></TextView>
+</LinearLayout>

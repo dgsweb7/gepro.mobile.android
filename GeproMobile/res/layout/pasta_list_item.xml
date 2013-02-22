@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:orientation="vertical"
+	android:layout_height="wrap_content" android:background="@drawable/custom_lst_item_backgroung">
+
+	<TextView android:text="0001/2010" android:id="@+id/txt_pasta_list_item_nprocesso"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		style="@style/txt_common"></TextView>
+
+	<TextView android:text="999" android:id="@+id/txt_pasta_list_item_pastaid" android:layout_marginLeft="5px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/txt_pasta_list_item_nprocesso" style="@style/txt_common"  android:layout_alignParentRight="true" android:gravity="right" ></TextView>
+
+	<TextView android:text="Forum Alexandre Mendes" android:id="@+id/txt_pasta_list_item_partforum"
+		android:layout_width="wrap_content" android:layout_below="@id/txt_pasta_list_item_nprocesso"
+		android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+
+	<TextView android:text="1SVC" android:id="@+id/txt_pasta_list_item_vara"
+		android:layout_height="wrap_content"
+		style="@style/txt_common" android:layout_toRightOf="@id/txt_pasta_list_item_partforum"
+		android:layout_below="@id/txt_pasta_list_item_pastaid" android:gravity="right" android:layout_width="fill_parent"></TextView>
+
+	<TextView android:text="Jose Maria Joao"
+		android:id="@+id/txt_pasta_list_item_partecontraria"
+		android:layout_width="fill_parent" android:layout_below="@id/txt_pasta_list_item_partforum"
+		android:layout_height="wrap_content" style="@style/txt_common"></TextView>
+
+	<TextView android:text="Jose Maria Joao"
+		android:id="@+id/txt_pasta_list_item_partesolicitante" style="@style/txt_common"
+		android:layout_width="fill_parent" android:layout_below="@id/txt_pasta_list_item_partecontraria"
+		android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>

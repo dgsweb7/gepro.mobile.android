@@ -1,0 +1,401 @@
+package gepro.mobile.proxy;
+
+import java.io.InputStream;
+
+import javax.management.Descriptor;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import gepro.mobile.dto.*;
+import gepro.mobile.parse.PessoasJSONParser;
+import gepro.mobile.parse.DesdobramentoJSONParser;
+import gepro.mobile.parse.GedJSONParser;
+import gepro.mobile.parse.GeproFileJSONparser;
+import gepro.mobile.parse.LoginJSONParser;
+import gepro.mobile.parse.AndamentosJSONParser;
+import gepro.mobile.parse.PastaJSONParser;
+import gepro.mobile.parse.SessionJSONParser;
+import gepro.mobile.parse.AgendaJSONParser;
+import gepro.mobile.parse.TipoJSONParser;
+import gepro.mobile.util.Util;
+
+public class GeproMobileServiceProxy {
+
+	IHttpWrapper _http;	
+
+	private String BASEURL = "http://mobile.gepro.net.br/GeproMobileService.svc/";
+	private String DOWNLOADURL = "http://mobile.gepro.net.br/geditem.aspx?ConsumerID=%s&GedItemID=%s";
+
+	private final String LOGIN = "Login";
+	private final String DASHBOARD_TASK = "DashBoard/Agenda";
+	private final String DASHBOARD_TASK_STATUS = "DashBoard/Agenda/Status";
+	private final String CUSTOMER_SEARCH = "Pessoas/Search";
+	private final String CUSTOMER_GET = "Pessoas";
+	private final String PASTA = "Pasta";
+	private final String PASTA_SEARCH = "Pasta/Search";
+	private final String PASTA_MOVIMENTS = "Pasta/Andamentos";
+	private final String PASTA_GED = "Pasta/GED";
+	private final String PASTA_DESDOBRAMENTO = "Pasta/Desdobramentos";
+	private final String PASTA_UPLOAD = "Pasta/Upload";
+	private final String GENERAL = "Geral";
+
+	public GeproMobileServiceProxy(IHttpWrapper http) {
+		this._http = http;
+	}
+
+	public Session Login(Login login) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/",
+					new Object[] { LOGIN });
+
+			String Response = _http.sendJSONPost(finalURL, LoginJSONParser
+					.toJson(login));
+
+			Session session = SessionJSONParser.fromJson(Response);
+
+			return session;
+
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+
+	public void UploadFile(Session session, GeproFile file) throws Exception {
+
+		String finalURL = String.format(BASEURL + "%s?%s", new Object[] {
+				PASTA_UPLOAD, CreateTokenQuery(session) });
+
+		_http.sendJSONPost(finalURL, GeproFileJSONparser.toJson(file));
+
+	}
+
+	public Tipo[] GetTipos(Session session, int Mode) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s?%s", new Object[] {
+					GENERAL, String.valueOf(Mode), CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Tipo[] types = new Tipo[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				types[i] = TipoJSONParser.fromJson(obj);
+			}
+
+			return types;
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public Agenda[] GetTasks(Session session, String Mode) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s?%s", new Object[] {
+					DASHBOARD_TASK, Mode, CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Agenda[] tasks = new Agenda[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				tasks[i] = AgendaJSONParser.fromJson(obj);
+			}
+
+			return tasks;
+
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public Agenda[] GetTasks(Session session, String dateIni, String dateEnd)
+			throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s/%s?%s",
+					new Object[] { DASHBOARD_TASK, dateIni, dateEnd,
+							CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Agenda[] tasks = new Agenda[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				tasks[i] = AgendaJSONParser.fromJson(obj);
+			}
+
+			return tasks;
+
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public Andamento[] GetMoviments(Session session, int pastaid,
+			int desdobramentoid) throws Exception {
+		try {
+
+			String finalUrl = String.format(BASEURL + "%s/%s/%s?%s",
+					new Object[] { PASTA_MOVIMENTS, String.valueOf(pastaid),
+							String.valueOf(desdobramentoid),
+							CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalUrl);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+
+			Andamento[] moviments = new Andamento[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				moviments[i] = AndamentosJSONParser.fromJson(obj);
+			}
+
+			return moviments;
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public Pessoa GetCustomer(Session session, String customerid)
+			throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s?%s", new Object[] {
+					CUSTOMER_GET, customerid, CreateTokenQuery(session) });
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			return PessoasJSONParser.fromJson(response);
+
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public Pessoa[] SearchCustomer(Session session, String filter,
+			int PerfilPessoa) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s/%s?%s",
+					new Object[] { CUSTOMER_SEARCH, filter,
+							String.valueOf(PerfilPessoa),
+							CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Pessoa[] customers = new Pessoa[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				customers[i] = PessoasJSONParser.fromJson(obj);
+			}
+
+			return customers;
+
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+
+	public Pasta[] SearchPasta(Session session, String filter, int tipo) throws Exception {
+		try {
+			String finalURL = String.format(BASEURL + "%s/%s/%s?%s", new Object[] {
+					PASTA_SEARCH, String.valueOf( tipo ), filter, CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Pasta[] pastas = new Pasta[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				pastas[i] = PastaJSONParser.fromJson(obj);
+			}
+
+			return pastas;
+
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+
+	public boolean InsertAndamento(Session session, Andamento movment)
+			throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s?%s", new Object[] {
+					PASTA_MOVIMENTS, CreateTokenQuery(session) });
+
+			_http.sendJSONPost(finalURL, AndamentosJSONParser.toJson(movment));
+
+			return true;
+
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+
+	public Desdobramento[] GetDesdobramento(Session session, int pastaid)
+			throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s?%s", new Object[] {
+					PASTA_DESDOBRAMENTO, String.valueOf(pastaid),
+					CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Desdobramento[] desdobramento = new Desdobramento[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				desdobramento[i] = DesdobramentoJSONParser.fromJson(obj);
+			}
+
+			return desdobramento;
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public Pasta GetPasta(Session session, int pastaid) throws Exception {
+		try {
+			String finalURL = String
+					.format(BASEURL + "%s/%s?%s",
+							new Object[] { PASTA, String.valueOf(pastaid),
+									CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			return PastaJSONParser.fromJson(new JSONObject(response));
+
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public void InsertAgenda(Session session, Agenda agenda) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s?%s", new Object[] {
+					DASHBOARD_TASK, CreateTokenQuery(session) });
+
+			_http.sendJSONPost(finalURL, AgendaJSONParser.toJson(agenda));
+
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+	
+	
+	public void RealizarAgenda(Session session, Agenda agenda) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s?%s", new Object[] {
+					DASHBOARD_TASK_STATUS , CreateTokenQuery(session) });
+
+			_http.sendJSONPut(finalURL, AgendaJSONParser.toJson( agenda) );
+
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+
+	public Ged[] GetGED(Session session, int pastaid) throws Exception {
+		try {
+
+			String finalURL = String.format(BASEURL + "%s/%s?%s", new Object[] {
+					PASTA_GED, String.valueOf(pastaid),
+					CreateTokenQuery(session) });
+
+			String response = _http.sendGet(finalURL);
+
+			if (Util.IsNullOrEmpty(response))
+				return null;
+
+			JSONArray jarr = new JSONArray(response);
+			Ged[] ged = new Ged[jarr.length()];
+			for (int i = 0; i < jarr.length(); i++) {
+				JSONObject obj = jarr.getJSONObject(i);
+				ged[i] = GedJSONParser.fromJson(obj);
+			}
+
+			return ged;
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	public InputStream DownLoadGedItem(Session session, int getItemId)
+			throws Exception {
+		try {
+			String finalURL = String.format(DOWNLOADURL, new Object[] {
+					session.getConsumerID(), String.valueOf(getItemId) });
+
+			InputStream response = _http.getStream(finalURL);
+
+			return response;
+
+		} catch (Exception e) {
+			throw e;
+		}
+
+	}
+
+	private String CreateTokenQuery(Session session) throws Exception {
+		try {
+
+			String token = String
+					.format("format=json&uid=%s&cid=%s&aid=%s", new Object[] {
+							session.getUserID(), session.getConsumerID(),
+							session.getApplicationID() });
+
+			return token;
+
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+}

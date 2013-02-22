@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">GeproMobile</string>
+
+	<!-- Titulos da Atividades  -->
+	<string name="title_login">GeproMobile - Login</string>
+	<string name="title_dashboard">GeproMobile - DashBoard</string>
+	<string name="title_customer">GeproMobile - Clientes</string>
+	<string name="title_customer_detail">GeproMobile - Detalhes do Clientes</string>
+	<string name="title_ged">GeproMobile - GED</string>
+	<string name="title_pasta">GeproMobile - Pesquisa de Pastas</string>
+	<string name="title_file_info">GeproMobile - Informações do Arquivo</string>
+	<string name="title_settings">GeproMobile - Preferências</string>
+	<string name="title_pasta_detail">GeproMobile - Detalhes da Pasta</string>
+	<string name="title_menu">GeproMobile - Menu Principal</string>
+
+	<!--  Campos tela Login  -->
+	<string name="username">Usuario:</string>
+	<string name="password">Senha:</string>
+
+	<!-- Campos tela Dashboard  -->
+	<string name="dashboard_calendar">Agenda</string>
+	<string name="dashboard_menu_pasta">Procurar Pastas</string>
+	
+	<!-- Campos tela Agenda  -->
+	<string name="task_month">Mês</string>
+	<string name="task_week">Semana</string>
+	<string name="task_day">Dia</string>
+
+	<!--  Cmapos tela Upload de Arquivo -->
+	<string name="mobile_ged_filename">Nome do Arquivo:</string>
+	<string name="mobile_ged_descriprion">Descrição Breve:</string>
+	<string name="mobile_ged_keywords">Palavras Chave:</string>
+	<string name="mobile_ged_type">Tipo Documento:</string>
+
+
+	<!-- Campos da Tela de Cliente   -->
+	<string name="customer_detail_code">Código:</string>
+	<string name="customer_detail_name">Nome:</string>
+	<string name="customer_detail_activity">Ramo de Atividade:</string>
+	<string name="customer_detail_email">Email:</string>
+	<string name="customer_detail_web">Web:</string>
+	<string name="customer_detail_phone">Telefone:</string>
+	<string name="customer_contacs">Contatos</string>
+	<string name="customer_search">Procurar Clientes</string>
+	<string name="customer_invoice">Faturamentos</string>
+	<string name="customer_bill">Pagamentos</string>
+	<string name="cusotmer_contacts_add">Adicionar</string>
+	<string name="cusotmer_contacts_remove">Remover</string>
+	<string name="customer_detail">Detalhes</string>
+	<string name="search_label_customer">Busca de Clientes</string>
+	<string name="search_hint_customer"></string>
+	
+	<!-- Campos da Tela de Inserção de Andamento  -->
+	<string name="moviment_codigo">Código:</string>
+	<string name="moviment_titulo" >Título:</string>
+	<string name="moviment_descricao">Descriçâo:</string>
+	<string name="moviment_desdoramento">Desdobramento:</string>
+	<string name="moviment_tipo">Tipo:</string>
+	<string name="moviment_data"> Data:</string>
+
+	<!-- Campos da tela de Pasta -->		
+	<string name="pasta_detail_codigo">Código:</string>	
+	<string name="pasta_detail_area">Área:</string>
+	<string name="pasta_detail_titulo">Título:</string>
+	<string name="pasta_detail_empresa">Empresa:</string>
+	<string name="pasta_detail_parteinteressada">Parte Interessada:</string>
+	<string name="pasta_detail_partecontraria">Parte Contrária:</string>
+	<string name="pasta_detail_objeto">Descrição do Objeto:</string>
+	<string name="pasta_detail_tipoacao">Tipo de Ação:</string>
+	<string name="pasta_detail_datadistri">Data da Distribuição:</string>
+	<string name="pasta_detail_nprocesso">Nº do processo:</string>
+	<string name="pasta_detail_foro">Foro:</string>
+	<string name="pasta_detail_vara">Vara:</string>
+	<string name="dashboard_moviment">Andamentos</string>
+	<string name="search_label_pasta">Busca de Processos</string>
+	<string name="search_hint_pasta"></string>
+	
+	<string name="pasta_detail">Detalhes</string>
+	<string name="pasta_andamentos">Andamentos</string>
+	<string name="pasta_GED"> Documentos </string>
+
+	<!-- Preferencias  -->
+	<string name="settings">Preferências</string>
+	<string name="settings_consumer_id">Token</string>
+	<string name="settings_consumer_id_key">settings_consumer_id_key</string>
+	<string name="settings_consumer_id_desc">Código de ativação do Cliente</string>
+	<string name="login_token_help">Não foi encontrado o Token (Codigo de ativação) \n
+		[Menu] -&gt;[Prefêrencias] -&gt; [Token]</string>
+		
+	<!--  Geral  -->
+	<string name="empty_list_message">Sua pesquisa não retornou resultados.</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+	android:label="@string/search_label_pasta" android:hint="@string/search_hint_pasta"
+	android:searchMode="showSearchLabelAsBadge" android:voiceLanguageModel="free_form" android:voicePromptText="Invoker"
+
+	android:searchSuggestAuthority=".GeproSearchSuggestionProvider"
+	android:searchSuggestSelection=" ? " />

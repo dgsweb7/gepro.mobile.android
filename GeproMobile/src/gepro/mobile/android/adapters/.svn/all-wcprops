@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/src/gepro/mobile/android/adapters
+END
+MenuItemListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/src/gepro/mobile/android/adapters/MenuItemListAdapter.java
+END
+AndamentosExpandListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/gepromobileandroid/!svn/ver/67/source/GeproMobile/src/gepro/mobile/android/adapters/AndamentosExpandListAdapter.java
+END
+AgendaExpandListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/src/gepro/mobile/android/adapters/AgendaExpandListAdapter.java
+END
+TipoArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/gepromobileandroid/!svn/ver/67/source/GeproMobile/src/gepro/mobile/android/adapters/TipoArrayAdapter.java
+END
+PastaArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/src/gepro/mobile/android/adapters/PastaArrayAdapter.java
+END
+DesdobramentoArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/gepromobileandroid/!svn/ver/45/source/GeproMobile/src/gepro/mobile/android/adapters/DesdobramentoArrayAdapter.java
+END
+PessoasArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/src/gepro/mobile/android/adapters/PessoasArrayAdapter.java
+END
+GedExpandListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/gepromobileandroid/!svn/ver/67/source/GeproMobile/src/gepro/mobile/android/adapters/GedExpandListAdapter.java
+END

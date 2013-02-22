@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<style name="txt_common" parent="@android:style/TextAppearance">
+		<item name="android:textColor">#000000</item>
+		<item name="android:typeface">sans</item>
+	</style>
+	
+	<style name="txt_common.medium">
+		<item name="android:textSize">15px</item>
+	</style>
+
+	<style name="txt_common.big">
+		<item name="android:textSize">20px</item>
+	</style>
+	
+		<style name="txt_common.menu">
+		<item name="android:textSize">25px</item>
+	</style>
+
+	<style name="lst_common">
+		<item name="android:typeface">sans</item>
+		<item name="android:divider">#00000000</item>
+		<item name="android:dividerHeight">0px</item>
+		<item name="android:cacheColorHint">#00000000</item>
+		<item name="android:background">#FFFFFF</item>
+
+	</style>
+
+	<style name="lst_st_divider">
+		<item name="android:background">@drawable/list_divider</item>
+	</style>
+
+
+	<style name="btn_common">
+			<item name="android:typeface">sans</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">20px</item>
+		<item name="android:background">@drawable/custom_button</item>
+	</style>
+
+</resources>

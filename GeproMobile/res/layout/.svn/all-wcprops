@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout
+END
+task_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gepromobileandroid/!svn/ver/33/source/GeproMobile/res/layout/task_list.xml
+END
+task_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/task_list_item.xml
+END
+ged_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/ged_list_item.xml
+END
+pessoas_perfil_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/69/source/GeproMobile/res/layout/pessoas_perfil_list.xml
+END
+task_expand_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/task_expand_item.xml
+END
+mobile_ged_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/mobile_ged_dialog.xml
+END
+customer_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/customer_list.xml
+END
+ged_expand_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/ged_expand_item.xml
+END
+drop_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gepromobileandroid/!svn/ver/45/source/GeproMobile/res/layout/drop_item.xml
+END
+pasta_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gepromobileandroid/!svn/ver/63/source/GeproMobile/res/layout/pasta_list_item.xml
+END
+task_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gepromobileandroid/!svn/ver/33/source/GeproMobile/res/layout/task_layout.xml
+END
+moviment_insert_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/moviment_insert_layout.xml
+END
+contacts_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/33/source/GeproMobile/res/layout/contacts_list_item.xml
+END
+moviments_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/moviments_layout.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/login.xml
+END
+ged_expand_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gepromobileandroid/!svn/ver/45/source/GeproMobile/res/layout/ged_expand_list.xml
+END
+menu_principal_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/menu_principal_list.xml
+END
+customer_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/customer_list_item.xml
+END
+ged_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gepromobileandroid/!svn/ver/45/source/GeproMobile/res/layout/ged_list.xml
+END
+viewer_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/viewer_layout.xml
+END
+camera_act.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/camera_act.xml
+END
+moviments_expand_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/moviments_expand_item.xml
+END
+menu_prinipal_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/menu_prinipal_item.xml
+END
+take_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/take_photo.xml
+END
+pasta_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gepromobileandroid/!svn/ver/74/source/GeproMobile/res/layout/pasta_detail.xml
+END
+scan_preview_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/scan_preview_layout.xml
+END
+task_date_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gepromobileandroid/!svn/ver/39/source/GeproMobile/res/layout/task_date_picker.xml
+END
+agenda_manut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gepromobileandroid/!svn/ver/71/source/GeproMobile/res/layout/agenda_manut.xml
+END
+contacts_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gepromobileandroid/!svn/ver/69/source/GeproMobile/res/layout/contacts_list.xml
+END
+pasta_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gepromobileandroid/!svn/ver/33/source/GeproMobile/res/layout/pasta_list.xml
+END
+empty_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gepromobileandroid/!svn/ver/33/source/GeproMobile/res/layout/empty_list.xml
+END
+moviments_exlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gepromobileandroid/!svn/ver/45/source/GeproMobile/res/layout/moviments_exlist.xml
+END
+customer_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gepromobileandroid/!svn/ver/33/source/GeproMobile/res/layout/customer_detail.xml
+END

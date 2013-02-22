@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="gepro.mobile.android" android:versionName="1.1"
+	android:versionCode="8">
+
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:debuggable="true">
+
+		<activity android:name="gepro.mobile.camera.CameraActivity"
+			android:label="@string/app_name" android:screenOrientation="landscape" android:configChanges="orientation"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+		</activity>
+
+
+		<activity android:name=".LoginAct" android:label="@string/app_name"
+			android:launchMode="singleTop" android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".PessoasSearchAct" android:label="@string/title_customer"
+			android:launchMode="singleTop" android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+			</intent-filter>
+			<meta-data android:name="android.app.searchable"
+				android:resource="@xml/searchable_customer" />
+		</activity>
+
+		<activity android:name=".PastaSearchAct" android:launchMode="singleTop"
+			android:label="@string/title_pasta" android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+			</intent-filter>
+			<meta-data android:name="android.app.searchable"
+				android:resource="@xml/searchable_pasta" />
+		</activity>
+
+		<activity android:name=".MobileGedAct" android:label="@string/title_ged"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="portrait">
+		</activity>
+
+		<activity android:name=".TakePhotoAct" android:label="@string/title_ged"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:launchMode="singleTop" android:configChanges="orientation|keyboardHidden"
+			android:screenOrientation="landscape">
+		</activity>
+
+		<activity android:name=".AgendaManutAct" android:label="Novo Compromisso"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".PessoasPerfilAct" android:label="Listagem de Perfis de Pessoa"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".PastaAct" android:label="@string/title_pasta"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".PastaTipoAct" android:label="@string/title_pasta"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".AndamentoManutAct" android:label="@string/title_pasta"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+
+		<activity android:name=".GedAct" android:label="@string/title_pasta"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".FileInfoAct" android:label="@string/title_file_info"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".MenuAct" android:label="@string/title_menu"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTask" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".PessoasAct" android:label="@string/title_customer"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".PessoasTabAct" android:label="@string/title_customer_detail"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".ContatossAct" android:label="@string/customer_contacs"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".AndamentoAct" android:label="@string/dashboard_moviment"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".SettingsAct" android:label="@string/title_settings"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".PastaTabAct" android:label="@string/title_pasta_detail"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".AgendaAct" android:label="@string/dashboard_calendar"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<activity android:name=".DashBoardAct" android:label="@string/title_dashboard"
+			android:configChanges="orientation|keyboardHidden"
+			android:launchMode="singleTop" android:screenOrientation="sensor">
+		</activity>
+
+		<provider android:name=".GeproSearchSuggestionProvider"
+			android:authorities=".GeproSearchSuggestionProvider" />
+
+
+	</application>
+
+	<uses-sdk android:minSdkVersion="3" />
+
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest> 

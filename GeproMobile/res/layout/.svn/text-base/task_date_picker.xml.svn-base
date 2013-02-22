@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/custom_act_background">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:text="De:" android:id="@+id/lbl_task_de"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+		<DatePicker android:id="@+id/dtp_task_dataini"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+
+		<TextView android:text="Até:" android:id="@+id/lbl_task_ate"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			style="@style/txt_common"></TextView>
+		<DatePicker android:id="@+id/dtp_task_dataend"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			></DatePicker>
+	</LinearLayout>
+
+</ScrollView>
